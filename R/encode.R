@@ -5,6 +5,11 @@
 #' @param json Defaults to TRUE. If TRUE, the output will be a base64 encoded JSON, else, the output will be an encoded string.
 #' @keywords encode
 #' @export
+#' @examples
+#' # Transform a data.frame to an encoded JSON string
+#' df <- iris
+#' encoded <- j_encode(df, json = TRUE)
+#'
 
 j_encode <- function( data, json = TRUE ) {
 

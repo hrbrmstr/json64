@@ -5,6 +5,16 @@
 #' @param json Defaults to TRUE. If TRUE, the function expects str to be an encoded json and will return a data.frame or list, depending on JSON structure. If FALSE, the function will return an string.
 #' @keywords decode
 #' @export
+#' @examples
+#' # Decode an encoded string:
+#'
+#' str <- "SGVsbG8gV29ybGQh"
+#' j_decode(str, json = FALSE)
+#'
+#' # Decode an encoded json:
+#'
+#' encoded_json <- "W3sibXNnIjogIkhlbGxvIFdvcmxkISIsICJqc29uIjogdHJ1ZX1d"
+#' j_decode(encoded_json)
 
 j_decode <- function( str, json = TRUE ) {
 
@@ -21,7 +31,7 @@ j_decode <- function( str, json = TRUE ) {
           stop( err, call. = FALSE )
         }
       )
-      
+
   } else {
     res <- data
   }

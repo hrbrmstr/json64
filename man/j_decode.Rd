@@ -14,4 +14,15 @@ j_decode(str, json = TRUE)
 \description{
 Used to decode a base64 string. By default the function expects an encoded json.
 }
+\examples{
+# Decode an encoded string:
+
+str <- "SGVsbG8gV29ybGQh"
+j_decode(str, json = FALSE)
+
+# Decode an encoded json:
+
+encoded_json <- "W3sibXNnIjogIkhlbGxvIFdvcmxkISIsICJqc29uIjogdHJ1ZX1d"
+j_decode(encoded_json)
+}
 \keyword{decode}

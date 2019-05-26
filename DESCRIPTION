@@ -1,10 +1,10 @@
 Package: json64
 Type: Package
-Title: A base64 encode/decode package with support for JSON output/input and UTF-8
-Version: 0.1.1
+Title: A Base64 Encode/Decode Package with Support for JSON Output/Input and UTF-8
+Version: 0.1.2
 Author: Mauricio Santelices
 Maintainer: Mauricio Santelices <m.santelicesa@gmail.com>
-Description: The package contains three functions: j_encode and j_decode. The first function let you transform a data.frame or list to a base64 encoded JSON (or JSON string).    The j_decode function takes a base64 string (could be an encoded JSON) and transform it to a data.frame (or list, depending of the JSON structure).    The j_save function is intended to save an encoded output as a .txt file.
+Description: Encode/Decode base64 using two functions: j_encode and j_decode. The first function let you transform a data.frame or list to a base64 encoded JSON (or JSON string).    The j_decode function takes a base64 string (could be an encoded JSON) and transform it to a data.frame (or list, depending of the JSON structure).
 License: MIT + file LICENSE
 Imports:
     jsonlite

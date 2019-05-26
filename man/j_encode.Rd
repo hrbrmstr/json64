@@ -14,4 +14,10 @@ j_encode(data, json = TRUE)
 \description{
 Used to encode a data.frame or list. By default, the output will be a base64 encoded JSON.
 }
+\examples{
+# Transform a data.frame to an encoded JSON string
+df <- iris
+encoded <- j_encode(df, json = TRUE)
+
+}
 \keyword{encode}
