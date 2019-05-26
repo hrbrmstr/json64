@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558541276855.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1453215748",
+    "id" : "BE9BF7DF",
+    "lastKnownWriteTime" : 1558542486,
+    "last_content_update" : 1558542486639,
+    "path" : "C:/Users/Altera-04/Desktop/base64/json64/R/encode.R",
+    "project_path" : "R/encode.R",
+    "properties" : {
+        "cursorPosition" : "13,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
